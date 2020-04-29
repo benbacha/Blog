@@ -11,6 +11,7 @@ if(isset($_GET['p'])){
     $page ='home';
 }
 
+
 ob_start();
 if($page === 'home') {
 require ROOT . '/pages/posts/home.php';
